@@ -47,7 +47,7 @@ const Interior = () => {
         <div className=' container mx-auto flex justify-center items-center pt-[17%] pb-[20%] xl:pb-[10%] xl:pt-[13%]'>
                 <Slider {...settings} className=' flex items-center justify-center'>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28 w-[90%] md:w-[80%] lg:w-[100%]'>
                     <div>
                         <h2 className=' font-bold text-[28px] ff_poppins bcg_int my_text'>Exterior </h2>
                         <img className='img_hgt mt-[19px]' src={house} alt="" />
@@ -58,7 +58,7 @@ const Interior = () => {
                 </div>
                     </div>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28 w-[90%] md:w-[80%] lg:w-[100%]'>
                 <div>
                         <h2 className=' font-bold text-[28px] ff_poppins bcg_int my_text'>Interior</h2>
                         <img className='img_hgt mt-[19px]' src={int} alt="" />
@@ -69,7 +69,7 @@ const Interior = () => {
                 </div>
                     </div>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28 w-[90%] md:w-[80%] lg:w-[100%]'>
                 <div>
                         <h2 className=' font-bold text-[23px] ff_poppins bcg_int my_text'>your perfect color</h2>
                         <img className='img_hgt mt-[19px]' src={color} alt="" />
@@ -79,7 +79,7 @@ const Interior = () => {
                     </div> </div>
                     </div>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28 w-[90%] md:w-[80%] lg:w-[100%]'>
                     <div>
                         <h2 className=' font-bold text-[28px] ff_poppins bcg_int my_text'>Exterior </h2>
                         <img className='img_hgt mt-[19px]' src={house} alt="" />
@@ -90,7 +90,7 @@ const Interior = () => {
                 </div>
                     </div>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28 w-[90%] md:w-[80%] lg:w-[100%]'>
                 <div>
                         <h2 className=' font-bold text-[28px] ff_poppins bcg_int my_text'>Interior</h2>
                         <img className='img_hgt mt-[19px]' src={int} alt="" />
@@ -101,7 +101,7 @@ const Interior = () => {
                 </div>
                     </div>
                     <div className='my_slider'>
-                <div className=' card_one my-2 md:my-28'>
+                <div className=' card_one my-2 md:my-28w-[90%] md:w-[80%] lg:w-[100%]'>
                 <div>
                         <h2 className=' font-bold text-[28px] ff_poppins bcg_int  my_text'>your perfect color</h2>
                         <img className='img_hgt mt-[19px]' src={color} alt="" />

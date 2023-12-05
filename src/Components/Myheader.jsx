@@ -20,7 +20,7 @@ const Myheader = () => {
              <div className=' container mx-auto'>
                 <div className=' flex items-center justify-between pt-3'>
                     <a href="logo"><img className=' w-[20%]' src={logo} alt="" /></a>
-                    <ul className={`${show ? "start-0" : "right-[-100%]"} flex flex-col z-[4]  min-h-screen lg:min-h-fit fixed lg:static w-full lg:w-auto items-center justify-center top-0 max-lg:right-[-100%] bg-violet-500 lg:bg-[unset] lg:flex-row right-0 gap-12 ps-0 duration-700`}>                        
+                    <ul className={`${show ? "start-0" : "right-[-100%]"} flex flex-col z-[4]  min-h-screen lg:min-h-fit fixed lg:static w-full lg:w-auto items-center justify-center top-0 max-lg:right-[-100%] bg-violet-500 lg:bg-[unset] lg:flex-row right-0 gap-12 ps-0 duration-1000`}>                        
                         <li><a href="#" className=' text-[21px] font-bold text-white ff_poppins relative after:left-[50%] after:absolute after:bg-[#cc33d9] after:w-0 after:h-[3px] after:bottom-[-3px] hover:after:left-0 after:duration-300 inline hover:after:w-full'>Home</a></li>
                         <li><a href="#" className=' text-[21px] font-bold text-white ff_poppins relative after:left-[50%] after:absolute after:bg-[#cc33d9] after:w-0 after:h-[3px] after:bottom-[-3px] hover:after:left-0 after:duration-300 inline hover:after:w-full'>About Us</a></li>
                         <li><a href="#" className=' text-[21px] font-bold text-white ff_poppins relative after:left-[50%] after:absolute after:bg-[#cc33d9] after:w-0 after:h-[3px] after:bottom-[-3px] hover:after:left-0 after:duration-300 inline hover:after:w-full'>Gallery</a></li>
