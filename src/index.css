@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bcg_gradiants{
+    background: linear-gradient(174deg, rgba(2, 26, 56, 0.98) -12.41%, rgba(204, 51, 217, 0.98) 88.56%);
+}
+.bcg_gradiant{
+    background: linear-gradient(178deg, #021A38 2.36%,  #CC33D9  102.8%);
+}
+.bcg_gradiant_1{
+    background: linear-gradient(175deg, #021A38 8.36%,  #CC33D9  90.8%);
+}
+.bcg_gradiant_2{
+    background: linear-gradient(159deg, #CC33D9 30.96%, #021A38 104.01%);
+}
+.bcg_gradiant_3{
+    background: linear-gradient(180deg, #CC33D9 -9.73%, #021A38 110.94%);
+}
+.bcg_text{
+    background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.bcg_int{
+    color:#888888;
+}
+.bcg_welcome{
+    background: linear-gradient(165deg, #021A38 0.18%, #CC33D9 61.93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bcg_gallery{
+    background: linear-gradient(168deg, #F16D92 24.56%, #281AC8 91.02%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bcg_living{
+    background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bcg_sub{
+    background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.myemail{
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to top, #281AC8, #FD749B) border-box;
+        border-radius: 100px;
+        border: 1px solid transparent;
 }
