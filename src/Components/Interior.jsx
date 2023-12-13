@@ -43,6 +43,7 @@ const Interior = () => {
     };
   return (
     <div className='bcg_gradiant relative'>
+    
         <img className=' absolute left-0 top-[-1%] w-[100%]' src={slider1} alt="" />
         <div className=' container mx-auto flex justify-center items-center pt-[17%] pb-[20%] xl:pb-[10%] xl:pt-[13%]'>
                 <Slider {...settings} className=' flex items-center justify-center'>

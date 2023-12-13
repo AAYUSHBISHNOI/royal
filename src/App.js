@@ -10,11 +10,12 @@ import Discover from './Components/Discover';
 import Warm from './Components/Warm';
 import Subscribe from './Components/Subscribe';
 import Myfooter from './Components/Myfooter';
+import { Myemail } from './Components/Myemail';
 
 function App() {
   return (
     <div>
-    <Myheader/>
+    {/* <Myheader/>
     <Welcome/>
     <Interior/>
     <Gallery/>
@@ -22,7 +23,8 @@ function App() {
     <Discover/>
     <Warm/>
     <Subscribe/>
-    <Myfooter/>
+    <Myfooter/> */}
+    <Myemail/>
     </div>
   );
 }
