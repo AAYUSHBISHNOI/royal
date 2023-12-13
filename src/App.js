@@ -15,7 +15,7 @@ import { Myemail } from './Components/Myemail';
 function App() {
   return (
     <div>
-    {/* <Myheader/>
+    <Myheader/>
     <Welcome/>
     <Interior/>
     <Gallery/>
@@ -23,8 +23,8 @@ function App() {
     <Discover/>
     <Warm/>
     <Subscribe/>
-    <Myfooter/> */}
-    <Myemail/>
+    <Myfooter/>
+    {/* <Myemail/> */}
     </div>
   );
 }
